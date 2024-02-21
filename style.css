@@ -1,4 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{
+    height: 100%;
+    width:100%;  
+}
+.container{
+    /* padding: 0px 80px; */
+}
 
-/* Navbar */
+.navbar-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 50px;
 
-/* Hero Section */
+}
+.grow-list{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    padding-right: 100px;
+    font-size:small;
+    padding:10px;
+}
+.list{
+    display:flex;
+    justify-content:start;
+    gap:30px;
+    list-style-type: none;
+    padding-right: 500px;
+    font-style: bold;
+}
+.nav-button{
+    padding: 15px 40px;
+    font-size: medium;
+   color:aliceblue;
+   background-color:rgb(91, 83, 143);
+   border-radius: 10px;
+}
+
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 90px;
+}
+
+.heading-text{
+    padding-top: 150px;
+    /*font-size: xx-large;*/
+    color:rgb(15, 2, 15);
+    font-size: 80px;
+}
+span{
+    color: rgb(92, 92, 169);
+}
+
+.description{
+    padding-top: 50px;
+    font-size:30px;
+    color:rgb(128, 120, 120);
+    /* padding-left: 90px ; */
+    
+}
+
+.btn{
+    padding:30px 85px;
+    background-color:rgb(111, 100, 181);
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.fix>img{
+    height: 650px;
+}
